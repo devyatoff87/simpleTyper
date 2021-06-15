@@ -6,21 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="flex-centered">
-            <p class="target" data-length="200" data-string="Hello, it's me, the SimpleTyper!"></p>
-            <!-- <p class="target" data-length="300" data-string="How are you, buddy?"></p> -->
+    <div class="container main-cont">
+        <div class="flex-centered typer-cont">
+            <p class="typer-target" data-speed="200" data-string="Hello! It's me, SimpleTyper.js!"></p>
+            <p class="typer-target" data-speed="100" data-string="I am pretty simple to use."></p>
+        </div>
+    </div>
+    <div class="code-img">
+        <div class="wrapper">
+            <i class="far close fa-times-circle"></i>
+            <img src="./assets/code-img.JPG" alt="img">
         </div>
     </div>
 </body>
-<script src="./simpleTyper.js"></script>
-<script>
-    simpleTyper();
-</script>
-</body>
 
+<script src="https://kit.fontawesome.com/7bad17f09b.js" crossorigin="anonymous"></script>
+<script src="./assets/simpleTyper.js"></script>
+
+</body>
 </html>
